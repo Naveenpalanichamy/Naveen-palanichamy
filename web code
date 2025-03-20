@@ -1,0 +1,268 @@
+1 .Web page for Department : 
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+<meta charset="UTF-8"> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<title>Department of Computer Applications</title> 
+</head> 
+<body> 
+<header style="background: #333; color: white; padding: 15px; text-align: center;"> 
+Department of Computer Applications 
+</header> 
+<div style="padding: 20px; text-align: center;"> 
+<div style="background: white; margin: 10px auto; padding: 15px; max-width: 800px; 
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); border-radius: 5px;"> 
+<h2 align="center">About Us</h2> 
+<p>The Department of Computer Applications focuses on academic excellence and 
+research in computing technologies.</p> 
+</div> 
+<div style="background: white; margin: 10px auto; padding: 15px; max-width: 800px; 
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); border-radius: 5px;"> 
+<h2 align="center">Programs Offered</h2> 
+<ul align="center"> 
+<li>Bachelor of Computer Applications (BCA)</li> 
+<li>Master of Computer Applications (MCA)</li> 
+<li>Ph.D. in Computer Applications</li> 
+</ul> 
+</div> 
+<div style="background: white; margin: 10px auto; padding: 15px; max-width: 800px; 
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); border-radius: 5px;"> 
+<h2 align="center">Contact Us</h2> 
+<p>Email: info@computerdept.edu</p> 
+<p>Phone: +123 456 7890</p> 
+</div> 
+</div> 
+<footer style="background: #333; color: white; padding: 10px; text-align: center;"> 
+&copy; 2025 Department of Computer Applications 
+</footer> 
+</body> 
+</html> 
+
+
+
+2. Bio Data using css: 
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+<title>Biodata</title> 
+</head> 
+<body style="font-family: Arial, sans-serif; background-color: #f4f4f4; margin: 0; padding: 
+0; display: flex; justify-content: center; align-items: center; height: 100vh;"> 
+<div style="background: white; padding: 20px; border-radius: 10px; box-shadow: 0 0 10px 
+rgba(0, 0, 0, 0.1); width: 400px; text-align: center;"> 
+<h2>My Biodata</h2> 
+<p><strong>Name:</strong> NAVEEN</p> 
+<p><strong>Age:</strong> 25</p> 
+<p><strong>Gender:</strong> Male</p> 
+<p><strong>Email:</strong> naveen@example.com</p> 
+<p><strong>Phone:</strong> +123 456 7890</p> 
+<p><strong>Address:</strong> 123 Street, City, Country</p> 
+</div> 
+</body> 
+</html> 
+
+
+3. HTML formatting tags: 
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+<meta charset="UTF-8"> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<title>Our Company</title> 
+</head> 
+<body style="font-family: Arial, sans-serif; margin: 0; padding: 0; text-align: center;"> 
+<header> 
+<h1>Welcome to Our Company</h1> 
+<p><strong>Providing Quality Services Since 1990</strong></p> 
+</header> 
+<nav> 
+<ul style="list-style-type: none; padding: 0;"> 
+<li style="display: inline; margin: 0 15px;"><a href="#about">About Us</a></li> 
+<li style="display: inline; margin: 0 15px;"><a href="#services">Services</a></li> 
+<li style="display: inline; margin: 0 15px;"><a href="#contact">Contact</a></li> 
+</ul> 
+</nav> 
+<section id="about"> 
+<h2>About Us</h2> 
+<p>We are a leading firm dedicated to offering top-notch solutions to our clients.</p> 
+</section> 
+<section id="services"> 
+<h2>Our Services</h2> 
+<ul> 
+<li><b>Consulting</b>: Business strategy and management solutions.</li> 
+<li><b>Development</b>: Web and mobile application development.</li> 
+<li><b>Marketing</b>: Digital and traditional marketing solutions.</li> 
+</ul> 
+</section> 
+<section id="contact"> 
+<h2>Contact Us</h2> 
+<p>Email: <a href="mailto:info@company.com">info@company.com</a></p> 
+<p>Phone: +123 456 7890</p> 
+</section> 
+<footer> 
+<p>&copy; 2025 Our Company. All rights reserved.</p> 
+</footer> 
+</body> 
+</html> 
+
+
+4.Student Marksheet: 
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+<meta charset="UTF-8"> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<title>Student Marksheet</title> 
+<style> 
+body { 
+font-family: Arial, sans-serif; 
+text-align: center; 
+margin: 20px; 
+} 
+table { 
+width: 50%; 
+margin: auto; 
+border-collapse: collapse; 
+border: 1px solid black; 
+} 
+th, td { 
+border: 1px solid black; 
+padding: 10px; 
+} 
+th { 
+background-color: #f2f2f2; 
+} 
+</style> 
+</head> 
+<body> 
+<h2>Student Marksheet</h2> 
+<table> 
+<tr> 
+<th>Subject</th> 
+<th>Marks</th> 
+</tr> 
+<tr> 
+<td>Math</td> 
+<td>90</td> 
+</tr> 
+<tr> 
+<td>Science</td> 
+<td>85</td> 
+</tr> 
+<tr> 
+<td>English</td> 
+<td>88</td> 
+</tr> 
+<tr> 
+<th>Total</th> 
+<th>263</th> 
+</tr> 
+</table> 
+</body> 
+</html> 
+
+
+5.Advertising using css: 
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+<meta charset="UTF-8"> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<title>Advertisement</title> 
+</head> 
+<body style="font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: 
+#f4f4f4; text-align: center;"> 
+<div style="background: url('fashion-bg.jpg') no-repeat center center/cover; color: white; 
+padding: 50px;"> 
+<h1>Fashion Fiesta!</h1> 
+<p>Upgrade your wardrobe with our exclusive collection.</p> 
+<div style="background: rgba(255, 0, 0, 0.8); padding: 20px; font-size: 24px; font
+weight: bold; margin: 20px auto; display: inline-block; border-radius: 10px;"> 
+Flat 50% Off on All Items! 
+</div> 
+</div> 
+<div style="background: white; padding: 20px; margin: 20px; border-radius: 10px; box
+shadow: 0 4px 8px rgba(0,0,0,0.1);"> 
+<h2>Special Deals</h2> 
+<p>Buy 2 Get 1 Free | Free Shipping on Orders Above $50</p> 
+<a href="#" style="display: inline-block; background: #ff5733; color: white; padding: 
+10px 20px; text-decoration: none; font-size: 18px; border-radius: 5px; margin-top: 
+10px;">Shop Now</a> 
+</div> 
+</body> 
+</html> 
+
+
+6.Component using Javascript: 
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+<meta charset="UTF-8"> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<title>Kalpana Chawla Tribute</title> 
+</head> 
+<body style="font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #000; 
+color: white; text-align: center; overflow-x: hidden;"> 
+<div style="max-width: 800px; margin: 20px auto; padding: 20px; border-radius: 10px; 
+background-color: rgba(255, 255, 255, 0.1); box-shadow: 0 0 10px rgba(255, 255, 255, 
+0.2);"> 
+<h1>Kalpana Chawla - A Tribute</h1> 
+<img src="https://www.isro.gov.in/images/kalpana_chawla.jpg" alt="Kalpana Chawla" 
+style="width: 100%; border-radius: 10px;"> 
+<div style="max-height: 200px; overflow-y: scroll; padding: 10px; background-color: 
+rgba(255, 255, 255, 0.2); border-radius: 10px;"> 
+<p>Kalpana Chawla was the first woman of Indian origin to go to space. She flew on 
+the Space Shuttle Columbia in 1997 as a mission specialist and was later part of the tragic 
+STS-107 mission in 2003. She remains an inspiration for millions.</p> 
+</div> 
+<p>Learn more about anything<a href="https://en.wikipedia.org/wiki/Kalpana_Chawla" 
+target="_blank" style="color: cyan; text-decoration: none; font-weight: bold;"> from 
+us</a></p> 
+<button onclick="showMessage()" style="padding: 10px 20px; background-color: 
+#ff5733; color: white; border: none; border-radius: 5px; cursor: pointer;">Click for a Tribute 
+Message</button> 
+<p id="tributeMessage" style="display: none; margin-top: 10px;">Kalpana Chawla's 
+legacy continues to inspire future generations of scientists and explorers!</p> 
+</div> 
+<script> 
+function showMessage() { 
+document.getElementById('tributeMessage').style.display = 'block'; 
+} 
+</script> 
+</body> 
+</html> 
+
+
+
+7.Create a table using Bootstrap  
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+<meta charset="UTF-8"> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<title>Bootstrap Table</title> 
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" 
+rel="stylesheet"> 
+</head> 
+<body> 
+<div class="container mt-4"> 
+<h2>Bootstrap Table</h2> 
+<table class="table table-bordered table-striped"> 
+<thead class="table-dark"> 
+<tr> 
+<th>#</th> 
+<th>Name</th> 
+<th>Age</th> 
+<th>City</th> 
+</tr> 
+</thead> 
+<tbody> 
+<tr><td>1</td><td>Alice</td><td>25</td><td>New York</td></tr> 
+<tr><td>2</td><td>Bob</td><td>30</td><td>Los Angeles</td></tr> 
+<tr><td>3</td><td>Charlie</td><td>28</td><td>Chicago</td></tr> 
+</tbody> 
+</table> 
+</div> 
+</body> 
+</html> 
