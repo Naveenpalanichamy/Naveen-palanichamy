@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalpana Chawla Tribute</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; background: black; color: white; margin: 20px; }
+        .container { max-width: 800px; margin: auto; padding: 20px; background: rgba(255, 255, 255, 0.1); border-radius: 10px; }
+        img { width: 100%; border-radius: 10px; }
+        .info { max-height: 200px; overflow-y: scroll; padding: 10px; background: rgba(255, 255, 255, 0.2); border-radius: 10px; }
+        .link { color: cyan; text-decoration: none; font-weight: bold; }
+        .btn { padding: 10px 20px; background: #ff5733; color: white; border: none; border-radius: 5px; cursor: pointer; }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Kalpana Chawla - A Tribute</h1>
+        <img src="https://www.isro.gov.in/images/kalpana_chawla.jpg" alt="Kalpana Chawla">
+        <div class="info">
+            <p>Kalpana Chawla was the first woman of Indian origin to go to space. She flew on 
+                the Space Shuttle Columbia in 1997 and later on the tragic STS-107 mission in 2003. 
+                She remains an inspiration for millions.</p>
+        </div>
+        <p>Learn more <a href="https://en.wikipedia.org/wiki/Kalpana_Chawla" class="link" target="_blank">here</a></p>
+        <button class="btn" onclick="document.getElementById('message').style.display='block'">Click for a Tribute</button>
+        <p id="message" style="display: none; margin-top: 10px;">Kalpana Chawla's legacy continues to inspire future generations of scientists and explorers!</p>
+    </div>
+
+</body>
+</html>
